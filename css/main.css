@@ -1,6 +1,6 @@
 @font-face {
     font-family: Fascinate;
-    src: url("/fonts/Fascinate-Regular.ttf");
+    src: url("../fonts/Fascinate-Regular.ttf");
 }
 
 /* Default Setting */
@@ -132,14 +132,25 @@ ul {
 
 /* ID Selektoren */
 
+#site {
+    width:1040px;
+    margin-top:0;
+    margin-right:auto;
+    margin-bottom:1em;
+    margin-left:auto;
+    background-image:url(../img/bg.png);
+    background-position:bottom right;
+    background-repeat:no-repeat;
+}
+
 #gesamt {
     width: 54em;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8);
     font-size: 95%;
     margin-top: 1em;
     margin-right: auto;
     margin-left: auto;
-    padding: 0.5em;
+    padding:0.5em 0em 0.5em 0.5em;
 }
 
 #links aside h3 {
@@ -166,7 +177,7 @@ ul {
 #rechts {
     width: 11.5em;
     float: right;
-    background-color: #d1d6e2;
+    background-color: rgba(209, 214, 226, 0.6);
     line-height: 115%;
     margin-bottom: 1em;
     padding: 0.6em;
