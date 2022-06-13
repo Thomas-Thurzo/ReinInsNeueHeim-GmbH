@@ -1,0 +1,41 @@
+footer, header, main, nav, aside, section {
+    display:block;
+}
+
+html, body {
+    height: 100%;
+}
+
+#gesamt {
+    width: 54em;
+}
+
+#bild {
+    width: 149px;
+    height: 82px;
+    float: left;
+}
+
+#links {
+    width: 11.5em;
+    float: left;
+}
+
+main {
+    width: 31em;
+    float: left;
+}
+
+#rechts {
+    width: 11.5em;
+    float: right;
+}
+
+footer {
+    clear: both;
+}
+
+header {
+    min-height:82px;
+}
+
